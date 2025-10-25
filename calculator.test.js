@@ -19,3 +19,8 @@ test('divides 10 / 2 to equal 5', () => {
 test('throws error when dividing by zero', () => {
   expect(() => calc.divide(5, 0)).toThrow("Cannot divide by zero");
 });
+
+test('modulus of 10 and 3 should return 1', () => {
+    const calc = require('./calculator');
+    expect(calc.modulus(10, 3)).toBe(1);
+});
