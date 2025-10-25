@@ -8,7 +8,7 @@ pipeline {
     parameters {
         string(name: 'BRANCH_NAME', defaultValue: 'main')
         string(name: 'BUILD_ENV', defaultValue: 'dev')
-        string(name: 'Maryam Fatima', defaultValue: 'Mariyam') // provide your name
+        string(name: 'STUDENT_NAME', defaultValue: 'Mariyam') // provide your name
     }
 
     environment {
